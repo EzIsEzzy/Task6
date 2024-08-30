@@ -5,7 +5,7 @@ include "Validation.php";
 $email = "esmail@gmail.com";
 $password = "12345A#5";
 $url = "https://w3school.com";
-$phone = "777123456";
+$phone = "778515331";
 $date = "2024-08-30";
 
 echo Validation::validateEmail($email) ? "Valid Email<br>" : "Invalid Email<br>";

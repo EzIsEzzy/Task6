@@ -27,7 +27,7 @@ class Validation
     // Method to validate phone numbers (basic validation: digits only, 7 to 15 characters)
     public static function validatePhoneNumber($phone)
     {
-        $pattern = '/^\d{7,15}$/';
+        $pattern = '/^(77|78|73|71|72)\d{7}$/';
         return preg_match($pattern, $phone);
     }
 
